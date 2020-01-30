@@ -36,6 +36,7 @@ class App extends Component {
         <h1>Monsters Rolodex</h1>
         <SearchBox onSearchChange={this.onSearchChange} />
         <CardList monsters={filteredMonsters} />
+        <h3>Web App By Shubham Chaudhary</h3>
       </div>
     );
   }
