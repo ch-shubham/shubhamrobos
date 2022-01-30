@@ -34,10 +34,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Monsters Rolodex</h1>
+        <header>Monsters Rolodex</header>
         <SearchBox onSearchChange={this.onSearchChange} />
         <CardList monsters={filteredMonsters} />
-        <h3>Web App By Shubham Chaudhary</h3>
+        <footer>Web App By Shubham Chaudhary</footer>
       </div>
     );
   }
